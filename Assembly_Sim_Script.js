@@ -246,7 +246,7 @@ function installCooler(coolerSlot) {
 
     const coolerImage = document.createElement("img");
 
-    coolerImage.src = "../COC1_Simulator1/Image Parts/CPU_Fan.png";
+    coolerImage.src = "CPU_Fan.png";
 
     coolerImage.alt = "CPU Cooler";
 
