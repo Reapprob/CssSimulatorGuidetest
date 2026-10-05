@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Assembly Simulator</title>
+
+    <link rel="stylesheet" href="Main_Design.css">
+    <link rel="stylesheet" href="COC1_Sim_Design.css">
+</head>
+
+<body>
+
+    <header>
+        <a href="COC1_Page.html" class="logo">CSS Guide</a>
+    </header>
+
+<main class="assembly-page">
+
+    <h1>PC Assembly Simulator</h1>
+
+    <!-- Assembly Area -->
+    <section class="assembly-area">
+
+        <h2>Assembly Area</h2>
+
+        <div class="motherboard-slot">
+            Drag the motherboard here to start
+        </div>
+
+    </section>
+
+
+    <!-- Parts Area -->
+    <section class="parts-area">
+
+        <h2>PC Parts</h2>
+
+        <div class="parts-list">
+
+            <div class="part-item" id="motherboard" draggable="true">
+                <img src="Motherboard_part.jpg" alt="Motherboard">
+            </div>
+
+            <div class="part-item" id="cpu" draggable="true">
+    <img src="CPU_parts.jpg" alt="CPU">
+</div>
+
+<div class="part-item" id="cpu-cooler" draggable="true">
+    <img src="CPU_Fan.png" alt="CPU Cooler">
+</div>
+            <div class="part-item">RAM</div>
+            <div class="part-item">Storage</div>
+            <div class="part-item">Power Supply</div>
+            <div class="part-item">GPU</div>
+
+        </div>
+
+    </section>
+
+</main>
+    <script src="Assembly_Sim_Script.js"></script>
+
+</body>
+
+</html>

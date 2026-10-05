@@ -1,0 +1,50 @@
+.coc-page {
+    min-height: calc(100vh - 70px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.coc-page h1 {
+    font-size: 42px;
+    margin-bottom: 35px;
+}
+
+.coc-list {
+    width: 100%;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.coc-option {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 22px;
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #222;
+    transition: 0.2s;
+}
+
+.coc-option:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+}
+
+.coc-option strong {
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+.coc-option span {
+    color: #777;
+    font-size: 15px;
+}

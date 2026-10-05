@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>COC 1</title>
+
+    <link rel="stylesheet" href="Main_Design.css">
+    <link rel="stylesheet" href="COC1_Page_Design.css">
+</head>
+
+<body>
+
+    <header>
+        <a href="COC_Selection.html" class="logo">CSS Guide</a>
+    </header>
+
+    <main class="coc-page coc1-page">
+
+        <h1>COC 1</h1>
+
+        <!-- Simulator area-->
+        <div class="expand">
+
+            <button class="expand-button" onclick="toggleExpand('simulatorMenu', this)">
+                Simulator
+                <span>▼</span>
+            </button>
+
+            <div id="simulatorMenu" class="expand-content">
+
+                <a href="COC1_Simulator1.html">Assembly sim test</a>
+                <a href="#">Option 2</a>
+                <a href="#">Option 3</a>
+                <a href="#">Option 4 test :D</a>
+
+            </div>
+
+        </div>
+
+
+        <!-- Text Guides area-->
+        <div class="expand">
+
+            <button class="expand-button" onclick="toggleExpand('guideMenu', this)">
+                Text Guides
+                <span>▼</span>
+            </button>
+
+            <div id="guideMenu" class="expand-content">
+
+                <a href="#">Text namber1</a>
+                <a href="#">... number2</a>
+                <a href="#">... number 3</a>
+
+            </div>
+
+        </div>
+
+    </main>
+
+    <script src="Expand_Button_Script.js"></script>
+
+</body>
+
+</html>
